@@ -43,8 +43,11 @@ img {
   text-align: justify;
 }
 
-#authortext {
+.authortext {
   font-size: 22px;
+  float: left;
+  margin-top: 40px;
+  margin-left: 20px;
 }
 
 .container {
@@ -74,4 +77,19 @@ img {
 .author-box {
   border-top: 1px solid #333;
   padding-top: 0px;
+}
+
+.other {
+  margin-bottom: 40px;
+}
+
+.author-box img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  float: left;
+}
+
+.blog-post img {
+  height: 150px;
 }
