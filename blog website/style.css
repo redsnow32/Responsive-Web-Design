@@ -45,9 +45,10 @@ img {
 
 .authortext {
   font-size: 22px;
-  float: left;
   margin-top: 40px;
-  margin-left: 20px;
+  margin-left: 15px;
+  float: left;
+
 }
 
 .container {
@@ -77,15 +78,22 @@ img {
 .author-box {
   border-top: 1px solid #333;
   padding-top: 0px;
+  width: 100%;
 }
 
 .other {
   margin-bottom: 40px;
 }
 
+.date {
+  position: absolute;
+  top: 30px;
+  right: 350px;
+}
+
 .author-box img {
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
   border-radius: 50%;
   float: left;
 }
