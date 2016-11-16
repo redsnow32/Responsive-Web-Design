@@ -34,6 +34,24 @@ html {
 /*----------------------------------------------------------------------------*/
 /*REUSABLE COMOPONENTS*/
 /*---------------------------------------------------------------------------*/
+
+/*links*/
+
+a:link,
+a:visited {
+  color: #e67e22;
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #e67e22;
+  transition: border-bottom 0.2s color 0.2s;
+}
+
+a:hover,
+a:active {
+  color: #555;
+  border-bottom: 1px solid transparent;
+
+}
 .row {
   max-width: 1140px;
   margin: 0 auto;
@@ -317,16 +335,13 @@ header {
 /*---------------------------------------------------------------------------*/
 
 .box img {
-  margin: 0;
+  margin-top: 15px;
+  margin-right: 0px;
   width: 100%;
   height: auto;
+  padding: 0px;
 }
 
 .city-feature {
-  margin:10px;
-}
-
-.city-feature icon {
-  background-color: #e67e22
-
+  margin-bottom: 5px;
 }
